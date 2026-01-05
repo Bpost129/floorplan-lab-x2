@@ -11,6 +11,18 @@ div {
   padding: 5px;
 }
 
+#floorplan {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#kitchen {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

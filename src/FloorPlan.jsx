@@ -5,7 +5,7 @@ import Bath from "./Bath"
 
 const FloorPlan = () => {
   return (
-    <>
+    <div id="floorplan">
       <LivingRoom />
       <Bath size={'Half'} />
       <Kitchen />
@@ -13,7 +13,7 @@ const FloorPlan = () => {
       <Bedroom bedNum={2} />
       <Bath size={'Full'} />
       <Bedroom bedNum={3} />
-    </>
+    </div>
   )
 }
 

@@ -1,6 +1,6 @@
 const Bath = ({ size }) => {
   return (
-    <div>
+    <div id="bath">
       <h3>{size} Bath</h3>
     </div>
   )

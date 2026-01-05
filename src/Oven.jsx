@@ -1,6 +1,6 @@
 const Oven = () => {
   return (
-    <div>
+    <div id="oven">
       <h4>Oven</h4>
     </div>
   )
