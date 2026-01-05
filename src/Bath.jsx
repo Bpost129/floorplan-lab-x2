@@ -1,8 +1,8 @@
-const Bath = () => {
+const Bath = ({ size }) => {
   return (
-    <>
-    
-    </>
+    <div>
+      <h3>{size} Bath</h3>
+    </div>
   )
 }
 
